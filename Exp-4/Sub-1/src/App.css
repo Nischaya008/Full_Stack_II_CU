@@ -1,0 +1,60 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive grid layouts */
+@media (max-width: 768px) {
+  main {
+    padding: 10px !important;
+  }
+  
+  .game-card, .music-card {
+    min-width: 100% !important;
+  }
+}
+
+/* Animation for favorites */
+@keyframes heartbeat {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.favorite-animation {
+  animation: heartbeat 0.3s ease-in-out;
+}
+
+/* Smooth transitions for all interactive elements */
+* {
+  transition: all 0.2s ease;
+}
+
+/* Custom selection colors */
+::selection {
+  background-color: var(--red);
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background-color: var(--red);
+  color: #ffffff;
+}
+
+/* Focus styles for accessibility */
+.focus-visible {
+  outline: 3px solid var(--red);
+  outline-offset: 2px;
+}
+
+/* Loading spinner */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.loading {
+  animation: spin 1s linear infinite;
+}
