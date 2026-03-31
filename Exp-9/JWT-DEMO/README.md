@@ -3,6 +3,9 @@
 ## Project Overview
 This JWT-DEMO project showcases how to implement JSON Web Tokens (JWT) in a Spring Boot application. The main aim is to provide authentication and authorization mechanisms using JWT.
 
+### Screenshot (Conduct / Output)
+![Experiment 9 Screenshot](https://github.com/Nischaya008/Full_Stack_II_CU/blob/main/Conduct%20Screenshots/9.1.png?raw=true)
+
 ## Features
 - Secure your APIs using JWT
 - User authentication and role-based access control
