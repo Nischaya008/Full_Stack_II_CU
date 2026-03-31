@@ -3,6 +3,9 @@
 ## Overview
 This REST API project provides a comprehensive interface for performing CRUD operations.
 
+### Screenshot (Conduct / Output)
+![Experiment 8 Screenshot](https://github.com/Nischaya008/Full_Stack_II_CU/blob/main/Conduct%20Screenshots/8.1.png?raw=true)
+
 ## Endpoints
 
 ### 1. User Endpoints
